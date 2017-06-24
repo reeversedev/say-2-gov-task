@@ -1,15 +1,85 @@
-
+@media (min-width:0px) and (max-width: 767px) {
+#desk-nav {
+  display: none;
+}
+.upper-btn {
+  margin-top: -25px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.upper-btn a {
+  display: inline-block;
+  font-size: 12px;
+  float: none;
+}
+#filter {
+  margin-top: -25px;
+  margin-left: 5px;
+}
+.mobile-opt a{
+  display: inline-block;
+  width: 140px;
+  margin-right: 0px;
+  font-size: 18px;
+}
+.mob-nav {
+  list-style: none;
+}
+.mob-nav a {
+  text-decoration: none;
+}
+.na-header {
+  margin-left: 0;
+}
+.sidebar-nav {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.navbar .container-fluid>.navbar-header {
+  float: left;
+  margin-right: 10px;
+}
+.navbar .navbar-nav {
+  float: left;
+  margin: 5px;
+}
+.nav>li {
+  float: left;
+}
+.nav .navbar-nav li {
+  display: inline!important;
+}
+.complaints {
+  font-weight: bold;
+  color: green!important;
+}
+.gap {
+  font-size: 18px;
+}
+.date {
+  font-size: 17px;
+}
+.card-content {
+  margin-left: -10px;
+}
+}
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
+  #mob-nav {
+    display: none;
+  }
   #filter {
     text-transform: capitalize;
     font-size: 24px;
+  }
+  .pointer {
+    cursor: pointer;
   }
   html {
     overflow-y: hidden;
   }
   .sidebar-nav {
-    margin-left: -45px;
+    margin-left: -15px;
   }
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
@@ -32,6 +102,9 @@
   }
   small {
     font-size: 18px;
+  }
+  .fa .fa-filter {
+    font-size: 125%;
   }
   p {
     font-size: 22px;
@@ -59,9 +132,6 @@
   .side-li {
     font-size: 20px;
   }
-  .content {
-    margin-top: 30px;
-  }
   .brand-logo {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -74,5 +144,8 @@
   #nav-mobile a {
     font-size: 20px;
     margin-top: 5px;
+}
+.navbar-header {
+  margin-left: 100px;
 }
 }
