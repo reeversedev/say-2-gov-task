@@ -5,8 +5,11 @@
     text-transform: capitalize;
     font-size: 24px;
   }
+  html {
+    overflow-y: hidden;
+  }
   .sidebar-nav {
-    margin-left: -15px;
+    margin-left: -45px;
   }
   .sidebar-nav .navbar .navbar-collapse {
     padding: 0;
@@ -21,12 +24,11 @@
     display: block;
   }
   .sidebar-nav .navbar li a {
-    padding-top: 30px;
+    padding-top: 18px;
     padding-bottom: 12px;
   }
   .active {
-    background-color: skyblue;
-    font-weight: bold;
+    color: white;
   }
   small {
     font-size: 18px;
@@ -48,9 +50,10 @@
   }
   .img-li {
     margin-top: 30px;
+    color: yellow;
   }
   .img-name {
-    margin-top: -20px;
+    margin-top: 0px;
     font-size: 25px;
   }
   .side-li {
@@ -59,4 +62,17 @@
   .content {
     margin-top: 30px;
   }
+  .brand-logo {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 45px !important;
+  }
+  nav {
+    height: 80px;
+  }
+  #nav-mobile a {
+    font-size: 20px;
+    margin-top: 5px;
+}
 }
