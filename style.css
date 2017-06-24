@@ -1,0 +1,62 @@
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  #filter {
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  .sidebar-nav {
+    margin-left: -15px;
+  }
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 30px;
+    padding-bottom: 12px;
+  }
+  .active {
+    background-color: skyblue;
+    font-weight: bold;
+  }
+  small {
+    font-size: 18px;
+  }
+  p {
+    font-size: 22px;
+    margin: 5px 0 5px 0;
+  }
+  .btn-match {
+    font-size: 24px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+  }
+  .large-span{
+    font-size: 28px;
+  }
+  .badge {
+    background-color:white;
+  }
+  .img-li {
+    margin-top: 30px;
+  }
+  .img-name {
+    margin-top: -20px;
+    font-size: 25px;
+  }
+  .side-li {
+    font-size: 20px;
+  }
+  .content {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="sidebar-nav">
+                <div class="navbar navbar-default" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                        <span class="visible-xs navbar-brand">Sidebar menu</span>
+                    </div>
+                    <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="text-center img-li">
+                                <img src="Confused.jpg" height="150">
+                                <a class="img-name">Name</a>
+                                <a class="side-li" href="#">Complaints</a></li>
+                            <li class="text-center"><a class="side-li" href="#">Suggestions</a></li>
+                            <li class="text-center"><a class="side-li" href="#">Queries</a></li>
+                            <li class="text-center"><a class="side-li" href="#">Others</a></li>
+                            <li class="text-center"><a class="side-li" href="#">Analytics</a></li>
+                            <li class="text-center"><a class="side-li" href="#"></a></li>
+                            <li class="text-center"><a class="side-li" href="#">Logout</a></li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+        <div class="content col-sm-9">
+            <!--<div class="btn-group">
+                <button type="button" class="btn active">Unread</button>
+                <button type="button" class="btn">In Process</button>
+                <button type="button" class="btn">Closed</button>
+                <button type="button" class="btn btn-default">Rejected</button>
+            </div>-->
+            <div class="btn-group">
+            <a class="waves-effect waves-light active btn">Unread</a>
+            <a class="waves-effect waves-light btn">in process</a>
+            <a class="waves-effect waves-light btn">closed</a>
+            <a class="waves-effect waves-light btn">rejected</a>
+            </div>
+            <a class="waves-effect waves-teal btn-flat right" id="filter"><i class="fa fa-filter" aria-hidden="true"></i> Filter</a>
+            <div class="card">
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4 large-span">Complaint No.<i class="material-icons right">forward</i><span class="large-span right">Booth No.</span></span>
+                    <small class="gap">department</small>
+                    <span class="right">date/time</span>
+                    <p class="gap">Message content whatever it may be</p>
+                    <span><a>Messages</a></span>
+                    <span><a>Comments</a></span>
+                    <div class="right">
+                        <span><a>Reject</a></span>
+                        <span><a>Forward</a></span>
+                    </div>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+                    <div class="collection">
+                        <a href="#!" class="collection-item"><span class="badge">12</span>Ward No.</a>
+                        <a href="#!" class="collection-item"><span class="badge">Place</span>Area</a>
+                        <a href="#!" class="collection-item"><span class="badge">POC</span>Office POC</a>
+                        <a href="#!" class="collection-item"><span class="badge">Person</span>Department Officer</a>
+                    </div>
+                </div>
+                <div class="card-action">
+                    <a>Reply to all</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+</body>
+
+</html>
